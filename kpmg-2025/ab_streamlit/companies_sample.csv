@@ -1,0 +1,6 @@
+﻿name,businessType,region,years,stage,industry,keywords,preferredUses,preferredBudget
+A사,법인,서울,1,초기,AI/데이터,"AI, 데이터, SaaS, 마케팅",마케팅|R&D,중간
+B사,법인,부산,4,성장,디자인,"디자인, 브랜딩, 수출",수출|컨설팅,중간
+C사,개인,경기,0,예비,이커,"마케팅, 브랜드",마케팅,소액
+D사,법인,대구,2,초기,제조,"제조, 시제품",시제품|인건비,중간
+E사,법인,서울,6,성장,헬스케어,"헬스케어, AI",R&D|임상,대형
