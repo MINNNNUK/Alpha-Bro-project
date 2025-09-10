@@ -4,25 +4,41 @@ import os
 from datetime import datetime, date
 from typing import Dict, List, Optional, Tuple
 import altair as alt
-from supabase import create_client, Client
-import json
-from config import SUPABASE_URL, SUPABASE_KEY
 
-# Supabase 설정
+# Supabase 설정 (안전한 import)
+try:
+    from supabase import create_client, Client
+    from config import SUPABASE_URL, SUPABASE_KEY
+    SUPABASE_AVAILABLE = True
+except ImportError as e:
+    st.warning(f"Supabase 패키지를 찾을 수 없습니다: {e}")
+    SUPABASE_AVAILABLE = False
+except Exception as e:
+    st.warning(f"Supabase 설정을 불러올 수 없습니다: {e}")
+    SUPABASE_AVAILABLE = False
+
+# Supabase 클라이언트 초기화
 @st.cache_resource
 def init_supabase():
     """Supabase 클라이언트 초기화"""
+    if not SUPABASE_AVAILABLE:
+        return None
+    
     try:
         return create_client(SUPABASE_URL, SUPABASE_KEY)
     except Exception as e:
         st.error(f"Supabase 연결 실패: {e}")
-        st.stop()
+        return None
 
-supabase: Client = init_supabase()
+supabase = init_supabase()
 
 @st.cache_data(ttl=60)
 def load_companies() -> pd.DataFrame:
     """회사 데이터 로드 (alpha_companies 테이블 사용)"""
+    if not SUPABASE_AVAILABLE or supabase is None:
+        st.warning("Supabase가 연결되지 않았습니다. 데모 데이터를 사용합니다.")
+        return pd.DataFrame()
+    
     try:
         result = supabase.table('alpha_companies').select('*').execute()
         df = pd.DataFrame(result.data)
@@ -792,6 +808,16 @@ def main():
         layout="wide",
         initial_sidebar_state="expanded"
     )
+    
+    # Supabase 연결 상태 표시
+    if not SUPABASE_AVAILABLE:
+        st.error("⚠️ Supabase 패키지가 설치되지 않았습니다. requirements.txt를 확인하세요.")
+        st.stop()
+    elif supabase is None:
+        st.warning("⚠️ Supabase에 연결할 수 없습니다. 설정을 확인하세요.")
+        st.info("로컬 개발: .env 파일에 SUPABASE_URL과 SUPABASE_KEY를 설정하세요.")
+        st.info("Streamlit Cloud: Secrets에 supabase.url과 supabase.key를 설정하세요.")
+        st.stop()
     
     st.title("🏛️ 정부지원사업 맞춤 추천 시스템 (Supabase)")
     st.markdown("---")
