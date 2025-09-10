@@ -1,0 +1,6 @@
+2025-09-06 14:54:58,878 - INFO - 최근 7일간의 새로운 공고 수집: 2025-08-30 ~ 2025-09-06
+2025-09-06 14:54:58,878 - INFO - API 호출 중: 2025-08-30 ~ 2025-09-06, 페이지 1
+2025-09-06 14:54:58,952 - ERROR - API 요청 오류: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /B552735/kisedKstartupService01/getAnnouncementInformation01?serviceKey=lSEnfDS8d9B%2BTyiAlh%2BjhZN9EGyIGk7GuYHSzZJtziZvrvFeyLF7jQi7z7G%2FusfjAO%2F%2F9T5ihYhUeFJywCalhQ%3D%3D&startDate=2025-08-30&endDate=2025-09-06&pageNo=1&numOfRows=100&resultType=xml (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_ILLEGAL_PARAMETER] sslv3 alert illegal parameter (_ssl.c:1028)')))
+2025-09-06 14:54:58,953 - WARNING - 페이지 1 데이터 수집 실패
+2025-09-06 14:54:58,953 - INFO - 총 0개의 공고를 수집했습니다.
+2025-09-06 14:54:58,953 - INFO - 새로운 공고가 없습니다.

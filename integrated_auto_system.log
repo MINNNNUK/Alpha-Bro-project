@@ -1,0 +1,102 @@
+2025-09-10 14:24:59,914 - INFO - HTTP Request: GET https://uulghcpqnwgkukfyiypb.supabase.co/rest/v1/alpha_companies?select=%2A "HTTP/2 200 OK"
+2025-09-10 14:25:00,136 - INFO - HTTP Request: GET https://uulghcpqnwgkukfyiypb.supabase.co/rest/v1/announcements?select=%2A "HTTP/2 200 OK"
+2025-09-10 14:25:00,417 - INFO - HTTP Request: GET https://uulghcpqnwgkukfyiypb.supabase.co/rest/v1/recommendations?select=%2A "HTTP/2 200 OK"
+2025-09-10 14:25:03,033 - WARNING - OPENAI_API_KEY 환경변수가 설정되지 않았습니다.
+2025-09-10 14:25:03,071 - INFO - Supabase 연결 성공
+2025-09-10 14:25:03,074 - INFO - 고객사 정보 로드 완료: 25개 기업
+2025-09-10 14:25:03,074 - INFO - 매일 신규 공고 수집 시작: 2025-09-09 ~ 2025-09-10
+2025-09-10 14:25:03,074 - INFO - K-스타트업 API 호출 중: 2025-09-09 ~ 2025-09-10
+2025-09-10 14:25:03,147 - ERROR - K-스타트업 API 요청 오류: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /B552735/kisedKstartupService01/getAnnouncementInformation01?serviceKey=lSEnfDS8d9B%2BTyiAlh%2BjhZN9EGyIGk7GuYHSzZJtziZvrvFeyLF7jQi7z7G%2FusfjAO%2F%2F9T5ihYhUeFJywCalhQ%3D%3D&pageNo=1&numOfRows=1000&resultType=xml&startDate=2025-09-09&endDate=2025-09-10 (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_ILLEGAL_PARAMETER] sslv3 alert illegal parameter (_ssl.c:1028)')))
+2025-09-10 14:25:03,147 - INFO - 기업마당 API 호출 중: 페이지 1
+2025-09-10 14:25:04,516 - WARNING - OPENAI_API_KEY 환경변수가 설정되지 않았습니다.
+2025-09-10 14:25:04,546 - INFO - Supabase 연결 성공
+2025-09-10 14:25:04,547 - INFO - 고객사 정보 로드 완료: 25개 기업
+2025-09-10 14:25:04,547 - INFO - === 매일 신규 공고 수집 및 맞춤 추천 작업 시작 ===
+2025-09-10 14:25:04,548 - INFO - 매일 신규 공고 수집 시작: 2025-09-09 ~ 2025-09-10
+2025-09-10 14:25:04,548 - INFO - K-스타트업 API 호출 중: 2025-09-09 ~ 2025-09-10
+2025-09-10 14:25:04,642 - ERROR - K-스타트업 API 요청 오류: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /B552735/kisedKstartupService01/getAnnouncementInformation01?serviceKey=lSEnfDS8d9B%2BTyiAlh%2BjhZN9EGyIGk7GuYHSzZJtziZvrvFeyLF7jQi7z7G%2FusfjAO%2F%2F9T5ihYhUeFJywCalhQ%3D%3D&pageNo=1&numOfRows=1000&resultType=xml&startDate=2025-09-09&endDate=2025-09-10 (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_ILLEGAL_PARAMETER] sslv3 alert illegal parameter (_ssl.c:1028)')))
+2025-09-10 14:25:04,642 - INFO - 기업마당 API 호출 중: 페이지 1
+2025-09-10 14:25:11,263 - WARNING - 기업마당 API에서 공고 데이터를 찾을 수 없습니다.
+2025-09-10 14:25:12,335 - WARNING - OPENAI_API_KEY 환경변수가 설정되지 않았습니다.
+2025-09-10 14:25:12,358 - INFO - Supabase 연결 성공
+2025-09-10 14:25:12,360 - INFO - 고객사 정보 로드 완료: 25개 기업
+2025-09-10 14:25:12,360 - INFO - 매일 신규 공고 수집 시작: 2025-09-09 ~ 2025-09-10
+2025-09-10 14:25:12,360 - INFO - K-스타트업 API 호출 중: 2025-09-09 ~ 2025-09-10
+2025-09-10 14:25:12,403 - ERROR - K-스타트업 API 요청 오류: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /B552735/kisedKstartupService01/getAnnouncementInformation01?serviceKey=lSEnfDS8d9B%2BTyiAlh%2BjhZN9EGyIGk7GuYHSzZJtziZvrvFeyLF7jQi7z7G%2FusfjAO%2F%2F9T5ihYhUeFJywCalhQ%3D%3D&pageNo=1&numOfRows=1000&resultType=xml&startDate=2025-09-09&endDate=2025-09-10 (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_ILLEGAL_PARAMETER] sslv3 alert illegal parameter (_ssl.c:1028)')))
+2025-09-10 14:25:12,403 - INFO - 기업마당 API 호출 중: 페이지 1
+2025-09-10 14:25:12,442 - WARNING - 기업마당 API에서 공고 데이터를 찾을 수 없습니다.
+2025-09-10 14:25:12,443 - INFO - 오늘 새로운 공고가 없습니다.
+2025-09-10 14:25:20,910 - WARNING - 기업마당 API에서 공고 데이터를 찾을 수 없습니다.
+2025-09-10 14:25:29,799 - WARNING - OPENAI_API_KEY 환경변수가 설정되지 않았습니다.
+2025-09-10 14:25:29,830 - INFO - Supabase 연결 성공
+2025-09-10 14:25:29,831 - INFO - 고객사 정보 로드 완료: 25개 기업
+2025-09-10 14:25:29,831 - INFO - 매일 신규 공고 수집 시작: 2025-09-09 ~ 2025-09-10
+2025-09-10 14:25:29,831 - INFO - K-스타트업 API 호출 중: 2025-09-09 ~ 2025-09-10
+2025-09-10 14:25:29,857 - ERROR - K-스타트업 API 요청 오류: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /B552735/kisedKstartupService01/getAnnouncementInformation01?serviceKey=lSEnfDS8d9B%2BTyiAlh%2BjhZN9EGyIGk7GuYHSzZJtziZvrvFeyLF7jQi7z7G%2FusfjAO%2F%2F9T5ihYhUeFJywCalhQ%3D%3D&pageNo=1&numOfRows=1000&resultType=xml&startDate=2025-09-09&endDate=2025-09-10 (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_ILLEGAL_PARAMETER] sslv3 alert illegal parameter (_ssl.c:1028)')))
+2025-09-10 14:25:29,857 - INFO - 기업마당 API 호출 중: 페이지 1
+2025-09-10 14:25:30,371 - WARNING - OPENAI_API_KEY 환경변수가 설정되지 않았습니다.
+2025-09-10 14:25:30,396 - INFO - Supabase 연결 성공
+2025-09-10 14:25:30,397 - INFO - 고객사 정보 로드 완료: 25개 기업
+2025-09-10 14:25:30,397 - INFO - === 매일 신규 공고 수집 및 맞춤 추천 작업 시작 ===
+2025-09-10 14:25:30,397 - INFO - 매일 신규 공고 수집 시작: 2025-09-09 ~ 2025-09-10
+2025-09-10 14:25:30,397 - INFO - K-스타트업 API 호출 중: 2025-09-09 ~ 2025-09-10
+2025-09-10 14:25:30,446 - ERROR - K-스타트업 API 요청 오류: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /B552735/kisedKstartupService01/getAnnouncementInformation01?serviceKey=lSEnfDS8d9B%2BTyiAlh%2BjhZN9EGyIGk7GuYHSzZJtziZvrvFeyLF7jQi7z7G%2FusfjAO%2F%2F9T5ihYhUeFJywCalhQ%3D%3D&pageNo=1&numOfRows=1000&resultType=xml&startDate=2025-09-09&endDate=2025-09-10 (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_ILLEGAL_PARAMETER] sslv3 alert illegal parameter (_ssl.c:1028)')))
+2025-09-10 14:25:30,446 - INFO - 기업마당 API 호출 중: 페이지 1
+2025-09-10 14:25:30,908 - WARNING - OPENAI_API_KEY 환경변수가 설정되지 않았습니다.
+2025-09-10 14:25:30,932 - INFO - Supabase 연결 성공
+2025-09-10 14:25:30,933 - INFO - 고객사 정보 로드 완료: 25개 기업
+2025-09-10 14:25:30,933 - INFO - 매일 신규 공고 수집 시작: 2025-09-09 ~ 2025-09-10
+2025-09-10 14:25:30,933 - INFO - K-스타트업 API 호출 중: 2025-09-09 ~ 2025-09-10
+2025-09-10 14:25:30,979 - ERROR - K-스타트업 API 요청 오류: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /B552735/kisedKstartupService01/getAnnouncementInformation01?serviceKey=lSEnfDS8d9B%2BTyiAlh%2BjhZN9EGyIGk7GuYHSzZJtziZvrvFeyLF7jQi7z7G%2FusfjAO%2F%2F9T5ihYhUeFJywCalhQ%3D%3D&pageNo=1&numOfRows=1000&resultType=xml&startDate=2025-09-09&endDate=2025-09-10 (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_ILLEGAL_PARAMETER] sslv3 alert illegal parameter (_ssl.c:1028)')))
+2025-09-10 14:25:30,979 - INFO - 기업마당 API 호출 중: 페이지 1
+2025-09-10 14:25:38,959 - WARNING - 기업마당 API에서 공고 데이터를 찾을 수 없습니다.
+2025-09-10 14:25:38,960 - INFO - 오늘 새로운 공고가 없습니다.
+2025-09-10 14:25:39,017 - WARNING - 기업마당 API에서 공고 데이터를 찾을 수 없습니다.
+2025-09-10 14:25:40,283 - WARNING - 기업마당 API에서 공고 데이터를 찾을 수 없습니다.
+2025-09-10 14:26:03,050 - INFO - HTTP Request: GET https://uulghcpqnwgkukfyiypb.supabase.co/rest/v1/alpha_companies?select=%2A "HTTP/2 200 OK"
+2025-09-10 14:26:03,153 - INFO - HTTP Request: GET https://uulghcpqnwgkukfyiypb.supabase.co/rest/v1/announcements?select=%2A "HTTP/2 200 OK"
+2025-09-10 14:26:03,241 - INFO - HTTP Request: GET https://uulghcpqnwgkukfyiypb.supabase.co/rest/v1/recommendations?select=%2A "HTTP/2 200 OK"
+2025-09-10 14:26:03,360 - INFO - HTTP Request: GET https://uulghcpqnwgkukfyiypb.supabase.co/rest/v1/recommendations?select=%2A&company_id=eq.1 "HTTP/2 200 OK"
+2025-09-10 14:26:30,193 - INFO - HTTP Request: GET https://uulghcpqnwgkukfyiypb.supabase.co/rest/v1/recommendations?select=%2A&company_id=eq.2 "HTTP/2 200 OK"
+2025-09-10 14:26:33,527 - INFO - HTTP Request: GET https://uulghcpqnwgkukfyiypb.supabase.co/rest/v1/recommendations?select=%2A&company_id=eq.3 "HTTP/2 200 OK"
+2025-09-10 14:26:35,199 - INFO - HTTP Request: GET https://uulghcpqnwgkukfyiypb.supabase.co/rest/v1/recommendations?select=%2A&company_id=eq.4 "HTTP/2 200 OK"
+2025-09-10 14:28:03,179 - INFO - HTTP Request: GET https://uulghcpqnwgkukfyiypb.supabase.co/rest/v1/alpha_companies?select=%2A "HTTP/2 200 OK"
+2025-09-10 14:28:03,284 - INFO - HTTP Request: GET https://uulghcpqnwgkukfyiypb.supabase.co/rest/v1/announcements?select=%2A "HTTP/2 200 OK"
+2025-09-10 14:28:03,355 - INFO - HTTP Request: GET https://uulghcpqnwgkukfyiypb.supabase.co/rest/v1/recommendations?select=%2A "HTTP/2 200 OK"
+2025-09-10 14:28:03,427 - INFO - HTTP Request: GET https://uulghcpqnwgkukfyiypb.supabase.co/rest/v1/recommendations?select=%2A&company_id=eq.1 "HTTP/2 200 OK"
+2025-09-10 14:28:20,186 - WARNING - OPENAI_API_KEY 환경변수가 설정되지 않았습니다.
+2025-09-10 14:28:20,227 - INFO - Supabase 연결 성공
+2025-09-10 14:28:20,232 - INFO - 고객사 정보 로드 완료: 25개 기업
+2025-09-10 14:28:20,232 - INFO - === 매일 신규 공고 수집 및 맞춤 추천 작업 시작 ===
+2025-09-10 14:28:20,232 - INFO - 매일 신규 공고 수집 시작: 2025-09-09 ~ 2025-09-10
+2025-09-10 14:28:20,232 - INFO - K-스타트업 API 호출 중: 2025-09-09 ~ 2025-09-10
+2025-09-10 14:28:20,278 - ERROR - K-스타트업 API 요청 오류: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /B552735/kisedKstartupService01/getAnnouncementInformation01?serviceKey=lSEnfDS8d9B%2BTyiAlh%2BjhZN9EGyIGk7GuYHSzZJtziZvrvFeyLF7jQi7z7G%2FusfjAO%2F%2F9T5ihYhUeFJywCalhQ%3D%3D&pageNo=1&numOfRows=1000&resultType=xml&startDate=2025-09-09&endDate=2025-09-10 (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_ILLEGAL_PARAMETER] sslv3 alert illegal parameter (_ssl.c:1028)')))
+2025-09-10 14:28:20,278 - INFO - 기업마당 API 호출 중: 페이지 1
+2025-09-10 14:28:27,734 - WARNING - 기업마당 API에서 공고 데이터를 찾을 수 없습니다.
+2025-09-10 14:28:27,735 - INFO - 오늘 새로운 공고가 없습니다.
+2025-09-10 14:29:03,181 - INFO - HTTP Request: GET https://uulghcpqnwgkukfyiypb.supabase.co/rest/v1/recommendations?select=%2A&company_id=eq.2 "HTTP/2 200 OK"
+2025-09-10 14:29:52,572 - INFO - HTTP Request: GET https://uulghcpqnwgkukfyiypb.supabase.co/rest/v1/announcements?select=%2A "HTTP/2 200 OK"
+2025-09-10 14:29:52,620 - INFO - HTTP Request: GET https://uulghcpqnwgkukfyiypb.supabase.co/rest/v1/alpha_companies?select=%2A&%22No.%22=eq.1 "HTTP/2 200 OK"
+2025-09-10 14:29:52,621 - WARNING - OPENAI_API_KEY 환경변수가 설정되지 않았습니다.
+2025-09-10 14:29:52,639 - INFO - Supabase 연결 성공
+2025-09-10 14:29:52,642 - INFO - 고객사 정보 로드 완료: 25개 기업
+2025-09-10 14:29:52,642 - INFO - 1번 기업 신규 공고 추천 생성 중...
+2025-09-10 14:29:52,642 - INFO - 기업명: 축구교실 특화 ERP 및 성적관리 프로그램
+2025-09-10 14:29:52,642 - WARNING - OpenAI API 키가 설정되지 않았습니다.
+2025-09-10 14:29:52,642 - WARNING - LLM 호출 실패
+2025-09-10 14:34:40,085 - INFO - HTTP Request: GET https://uulghcpqnwgkukfyiypb.supabase.co/rest/v1/alpha_companies?select=%2A "HTTP/2 200 OK"
+2025-09-10 14:34:40,148 - INFO - HTTP Request: GET https://uulghcpqnwgkukfyiypb.supabase.co/rest/v1/announcements?select=%2A "HTTP/2 200 OK"
+2025-09-10 14:34:40,217 - INFO - HTTP Request: GET https://uulghcpqnwgkukfyiypb.supabase.co/rest/v1/recommendations?select=%2A "HTTP/2 200 OK"
+2025-09-10 14:34:40,267 - INFO - HTTP Request: GET https://uulghcpqnwgkukfyiypb.supabase.co/rest/v1/recommendations?select=%2A&company_id=eq.1 "HTTP/2 200 OK"
+2025-09-10 14:43:39,749 - INFO - HTTP Request: GET https://uulghcpqnwgkukfyiypb.supabase.co/rest/v1/alpha_companies?select=%2A "HTTP/2 200 OK"
+2025-09-10 14:43:39,852 - INFO - HTTP Request: GET https://uulghcpqnwgkukfyiypb.supabase.co/rest/v1/announcements?select=%2A "HTTP/2 200 OK"
+2025-09-10 14:43:39,959 - INFO - HTTP Request: GET https://uulghcpqnwgkukfyiypb.supabase.co/rest/v1/recommendations?select=%2A "HTTP/2 200 OK"
+2025-09-10 14:43:40,034 - INFO - HTTP Request: GET https://uulghcpqnwgkukfyiypb.supabase.co/rest/v1/recommendations?select=%2A&company_id=eq.1 "HTTP/2 200 OK"
+2025-09-10 15:46:30,963 - INFO - HTTP Request: GET https://uulghcpqnwgkukfyiypb.supabase.co/rest/v1/alpha_companies?select=%2A "HTTP/2 200 OK"
+2025-09-10 15:46:31,074 - INFO - HTTP Request: GET https://uulghcpqnwgkukfyiypb.supabase.co/rest/v1/announcements?select=%2A "HTTP/2 200 OK"
+2025-09-10 15:46:31,192 - INFO - HTTP Request: GET https://uulghcpqnwgkukfyiypb.supabase.co/rest/v1/recommendations?select=%2A "HTTP/2 200 OK"
+2025-09-10 15:46:31,279 - INFO - HTTP Request: GET https://uulghcpqnwgkukfyiypb.supabase.co/rest/v1/recommendations?select=%2A&company_id=eq.1 "HTTP/2 200 OK"
+2025-09-10 15:46:32,359 - INFO - HTTP Request: GET https://uulghcpqnwgkukfyiypb.supabase.co/rest/v1/recommendations?select=%2A&company_id=eq.2 "HTTP/2 200 OK"
+2025-09-10 15:46:34,160 - INFO - HTTP Request: GET https://uulghcpqnwgkukfyiypb.supabase.co/rest/v1/recommendations?select=%2A&company_id=eq.3 "HTTP/2 200 OK"
+2025-09-10 15:46:35,729 - INFO - HTTP Request: GET https://uulghcpqnwgkukfyiypb.supabase.co/rest/v1/recommendations?select=%2A&company_id=eq.4 "HTTP/2 200 OK"
+2025-09-10 15:46:51,594 - INFO - HTTP Request: GET https://uulghcpqnwgkukfyiypb.supabase.co/rest/v1/recommendations?select=%2A&company_id=eq.6 "HTTP/2 200 OK"

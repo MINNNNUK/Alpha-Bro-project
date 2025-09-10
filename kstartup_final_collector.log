@@ -1,0 +1,6 @@
+2025-09-06 15:01:58,072 - INFO - 모의 데이터로 지난 1년간의 데이터를 생성합니다.
+2025-09-06 15:01:58,336 - INFO - 데이터가 collected_data/kstartup_past_year_20250906.xlsx에 저장되었습니다.
+2025-09-06 15:01:58,340 - INFO - 데이터가 collected_data/kstartup_past_year_20250906.csv에 저장되었습니다.
+2025-09-06 15:02:10,824 - INFO - 모의 데이터로 최근 7일간의 새로운 공고를 생성합니다.
+2025-09-06 15:02:10,873 - INFO - 데이터가 collected_data/kstartup_new_announcements_20250906_150210.xlsx에 저장되었습니다.
+2025-09-06 15:02:10,875 - INFO - 데이터가 collected_data/kstartup_new_announcements_20250906_150210.csv에 저장되었습니다.

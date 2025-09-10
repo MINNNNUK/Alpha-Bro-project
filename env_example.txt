@@ -1,0 +1,14 @@
+# Supabase 설정
+SUPABASE_URL=your_supabase_project_url
+SUPABASE_KEY=your_supabase_anon_key
+
+# OpenAI API 설정
+OPENAI_API_KEY=your_openai_api_key
+OPENAI_MODEL=gpt-4o-mini
+
+# K-스타트업 API 키 (이미 코드에 하드코딩됨)
+# KSTARTUP_SERVICE_KEY=lSEnfDS8d9B+TyiAlh+jhZN9EGyIGk7GuYHSzZJtziZvrvFeyLF7jQi7z7G/usfjAO//9T5ihYhUeFJywCalhQ==
+
+# 기업마당 API 키 (이미 코드에 하드코딩됨)
+# BIZINFO_SERVICE_KEY=LrTS4V
+

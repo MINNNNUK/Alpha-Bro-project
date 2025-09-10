@@ -1,0 +1,3 @@
+2025-09-06 15:05:52,347 - INFO - 모의 데이터로 지난 1년간의 데이터를 생성합니다.
+2025-09-06 15:05:52,417 - INFO - 데이터가 collected_data/kstartup_past_year_20250906.xlsx에 저장되었습니다.
+2025-09-06 15:05:52,419 - INFO - 데이터가 collected_data/kstartup_past_year_20250906.csv에 저장되었습니다.
